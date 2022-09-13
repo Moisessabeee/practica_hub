@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    background-color: #184e77;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    background-color: #1e6091;
+    color: #b5e48c;
+}
+li{
+    padding: 10px 30px;
+}
+.desplegable ul{
+    display: none;
+    position: absolute;
+    background-color: #1a759f;
+}
+a{
+    text-decoration: none;
+    color:#b5e48c ;
+}
+ul ul li{
+    color:#99d98c ;
+}
+.desplegable ul:hover {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #99d98c;
+    
+}

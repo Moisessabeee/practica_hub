@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <h1>Formulario de registro</h1>
+        <p>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre">
+        </p>
+        <p>
+            <label for="apellido">Apellidos: </label>
+            <input type="text" id="apellido">
+        </p>
+        <section>
+            sexo 
+            <input type="radio" id="masculino" name="sexo">
+            <label for="masculino">Hombre</label>
+            <input type="radio" id="femenino" name="sexo">
+            <label for="femenino">Mujer</label>
+        </section>
+        <p>
+            <label for="correo">Correo: </label>
+            <input type="email" id="correo" name="correo">
+        </p>
+        <p>
+            <label for="poblacion"><span>Poblacion: </span></label>
+
+        <select name="poblacion-1" id="poblacion">
+            <option value="ciudad">Alicante</option>
+            <option value="pais">Panama</option>
+            <option value="otro-pais">Costa Rica</option>
+        </select>
+        </p>
+        <p>
+            <label for="descripcion">Descripcion: </label>
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+        </p>
+        
+        <section>
+            <p>
+                <input type="checkbox" id="informacion">
+                <label for="informacion">Deseo recibir informacion sobre novedades y ofertas</label>
+            </p>
+            <p>
+                <input type="checkbox" id="informacion-2">
+                <label for="informacion-2">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+            </p>
+        </section>
+        <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+    <script></script>
+</body>
+</html>
