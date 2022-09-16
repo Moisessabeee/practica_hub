@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---------------------header-------------------*/
+p{
+    font-family: 'Barlow', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Fraunces', serif;
+}
+header{
+    position: relative;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0px 30px;
+    background-color: #3ebfff;
+}
+
+header h1{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 2.5rem;
+    bottom: 55%;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 8px;
+}
+#flecha{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    bottom: 23%;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+/*-----------------------main----------------------------*/
+.main_texto_1{
+    text-align: center;
+    padding: 2.5rem 2.5rem 4rem 2.5rem;
+    line-height: 1.5rem;
+}
+.main_texto_1 h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-family: 'Fraunces', serif;
+}
+.main_texto_1 p{
+    margin-bottom: 2rem;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(232, 10%, 55%);
+
+}
+.main_texto_1 a{
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+    letter-spacing: .1rem;
+    color: hsl(212, 27%, 19%);
+    font-size: .8rem;
+}
+.imagen_2{
+    position: relative;
+}
+.div_imagen_2{
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    top: 70%;
+}
+.div_imagen_2 h3{
+    font-size: 2rem;
+
+}
+.div_imagen_2 p{
+    font-size: 1rem;
+    margin: 20px;
+    line-height: 1.5rem;
+}
+#fotografia{
+    color: hsl(198, 62%, 26%);
+}
+#grafico{
+    color: hsl(167, 40%, 24%);
+}
+/*--------------------------------------seccion perfiles--------------------------*/
+.seccion_perfiles{
+    margin-top: 30px;
+}
+.div_seccion_perfiles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+#h4{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    letter-spacing: .2rem;
+    color: hsl(232, 10%, 55%);
+}
+.div_seccion_perfiles img{
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+
+}
+.div_seccion_perfiles .imagen_perfiles{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+.texto_seccion_perfiles{
+    width: 75%;
+}
+.texto_seccion_perfiles p{
+    font-size: 1.rem;
+    line-height: 1.6rem;
+    padding-bottom: 2rem;
+}
+.texto_seccion_perfiles h5{
+    font-size: 1.2rem;
+    margin: 5px;
+
+}
+.parrafo_seccion_perfiles{
+    font-size: .8rem;
+    color: hsl(232, 10%, 55%);
+
+
+}
+/*------------------------------------imagenes final -------------------------------*/
+.imagen_final{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 2rem;
+}
+/*----------------------------------------footer-----------------------------------------*/
+footer{
+    background-color: hsl(168, 50%, 55%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer_logo{
+    margin: 3rem 0 2rem 0;
+}
+.footer_barra ul{
+    list-style: none;
+    display: flex;
+
+}
+.footer_barra ul li > a{
+    margin: 2rem;
+    text-decoration: none;
+    color: hsl(213, 9%, 39%);
+    font-family: 'Barlow', sans-serif;
+}
+.logos_redes ul{
+    list-style: none;
+    display: flex;
+    margin: 4rem 0 3rem 0;
+}
+.logos_redes ul >li{
+    margin: 1rem;
+}
+
+@media only screen and (min-width: 750px){
+    /*---------------------header-------------------*/
+    body{
+        max-width: 1440px;
+        margin: auto;
+    }
+    .tres_barra{
+        display: none;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    nav ul > li{
+        margin-left: 3.5rem;
+    }
+    nav ul li > a{
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+    }
+    nav ul li > button{
+        padding: .6rem 1.5rem;
+        border-radius: 20px;
+        border: none;
+    }
+    header h1{
+        font-size: 4.3rem;
+        bottom: 65%;
+        letter-spacing: 10px;
+    }
+    #flecha{
+        bottom: 38%;
+    }
+    /*-------------------------main-----------------*/
+    .huevo{
+        display: flex;
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+    .copa{
+        display: flex;
+        width: 100%;
+    }
+    .main_texto_1{
+        max-width: 50%;
+        padding: 7rem 9rem;
+        text-align: left;
+    }
+    .main_texto_1 h2{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .main_texto_1 p{
+        font-size: 1.1rem ;
+        line-height: 2rem;
+    }
+    .main_texto_1 a{
+        font-size: 1.2rem;
+    }
+    .imagen_huevo_copa{
+        max-width: 50%;
+    }
+    .div_cereza_naranja{
+        display: flex;
+    }
+    .div_imagen_2{
+        margin: auto;
+        padding: 10rem;
+        top: 40%;
+    }
+    /*---------------------seccion perfiles-------------------------*/
+    #h4{
+        margin-top: 8rem;
+        font-size: 1rem;
+        letter-spacing: .4rem;
+    }
+    .seccion_perfiles{
+        display: flex;
+        max-width:100% ;
+        margin: 6rem 12rem;
+    }
+    .texto_seccion_perfiles{
+        width: 90%;
+    }
+    /*---------------------------imagen final ------------------------------*/
+    .imagen_final{
+        display: flex;
+        max-width: 100%;
+    }
+}
