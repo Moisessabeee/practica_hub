@@ -110,6 +110,7 @@ if (triangulo_1 == triangulo_2 && triangulo_1 == triangulo_3) {
 
 
 */
+/*
 console.log("Este program muestra todos los años desde su nacimiento")
 let edad = parseInt(prompt("Indique su edad"));
 i=1;
@@ -117,3 +118,4 @@ while(edad >= i){
  console.log(i);
  i ++;
 }
+*/
