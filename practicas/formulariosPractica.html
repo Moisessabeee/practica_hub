@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./formularioPractica.css">
+    <title>formulario</title>
+</head>
+<body>
+    <section>
+        <h1>registra tu vuelo en linea</h1>
+        <p>Para registrar tu vuelo en linea llenar el siquiente formulario con la informacion solicitada</p>
+        <form >
+            <fieldset>
+                <p> 
+                <label for="destino">Seleccione el pais de destino 
+                    <select name="" id="destino">
+                        <option value="">Panamá</option>
+                        <option value="">Costa Rica</option>
+                        <option value="">Colombia</option>
+                        <option value="">El Salvador</option>
+                        <option value="">Mexico</option>
+                        <option value="">Peru</option>
+                        <option value="">Bolivia</option>
+                        <option value="">Ecuador</option>
+                        <option value="">Honduras</option>
+                        <option value="">Nicaragua</option>
+                        <option value="">Guatemala</option>
+                    </select>
+                    </label>
+                    </p>
+                    <p>
+                <label for="salida">Seleccione el Pais de salida
+                    <select name="" id="salida">
+                        <option value="">Panamá</option>
+                        <option value="">Costa Rica</option>
+                        <option value="">Colombia</option>
+                        <option value="">El Salvador</option>
+                        <option value="">Mexico</option>
+                        <option value="">Peru</option>
+                        <option value="">Bolivia</option>
+                        <option value="">Ecuador</option>
+                        <option value="">Honduras</option>
+                        <option value="">Nicaragua</option>
+                        <option value="">Guatemala</option>
+                    </select>
+                </label>
+                </p>
+                <p>
+                <label for="fecha">Fecha de llegada
+                    <input type="date" id="fecha">
+                </label>
+                </p>
+                <p>
+                    <label for="f-salida">Fecha de salida
+                        <input type="date" id="f-salida">
+                    </label>
+                </p>
+                <p>
+                    <label for="aereolinea">Seleccione la Aerolínea
+                        <select name="" id="aereolinea">
+                            <option value="">AirPanama</option>
+                            <option value="">Air Europa Panamá</option>
+                            <option value="">Air France</option>
+                            <option value="">American Airlines</option>
+                            <option value="">Turpial Airlines</option>
+                            <option value="">United Airlines</option>
+                            <option value="">Copa Airlines </option>
+                            <option value="">Bocas Air</option>
+                            <option value="">Conviasa Panama</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label for="duracion">Duracion en el Pais
+                        <input type="number">
+                        <select name="" id="duracion">
+                            <option value="">Dias</option>
+                            <option value="">Horas</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label for="transito">Tránsito - País
+                        <select name="" id="transito">
+                            <option value="">Panamá</option>
+                            <option value="">Costa Rica</option>
+                            <option value="">Colombia</option>
+                            <option value="">El Salvador</option>
+                            <option value="">Mexico</option>
+                            <option value="">Peru</option>
+                            <option value="">Bolivia</option>
+                            <option value="">Ecuador</option>
+                            <option value="">Honduras</option>
+                            <option value="">Nicaragua</option>
+                            <option value="">Guatemala</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    ¿Cuenta con boleto de ida y vuelta? <br>
+                    <label for="">
+                        Si
+                        <input type="radio" name="respuesta">
+                        No
+                        <input type="radio" name="respuesta">
+                    </label>
+                </p>
+                <p>
+                    <input type="checkbox" id="terminos">
+                    <label for="terminos">Acepto la Política de privacidad y los Términos de uso del Centro de viaje</label>
+                </p>
+                <p>
+                    <input type="submit">
+                    <input type="reset">
+                </p>
+            </fieldset>
+        </form>
+    </section>
+    
+</body>
+</html>

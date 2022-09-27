@@ -119,3 +119,82 @@ while(edad >= i){
  i ++;
 }
 */
+/*
+const ovejas = [
+    // [nombre, color]
+    ['Noa','rojo'],
+    ['Euge','rojo'],
+    ['Navidad','azul'],
+    ['Ki Na Ma','azul'],
+    ['AAAAAaaaaa','rojo'],
+    ['Nnnnnnnn','azul'],
+    ['AannnNN','azul'],
+    ['NEmaosA','rojo'],
+    ['NerufgE','rojo'],
+    ['Anrtoa','rojo'],
+    ['Aiedii','azul'],
+    ['Nn aEst','azul'],
+    ['Perstesto','rojo'],
+    ['Nidivad','azul'],
+    ['Mistery','rojo'],
+    ['An na nas','azul'],
+    ['Varias','rojo'],
+    ['Misiones','azul'],
+    ['Aladas','rojo'],
+    ['njavascript','rojo'],
+    ['Python','azul'],
+    ['ReactJS','rojo'],
+    ['Julian','rojo'],
+    ['Mitificando','azul'],
+    ['astilleria','rojo'],
+    ['Ejercicios','azul'],
+    ['antioquia','rojo'],
+    ['vertigo','rojo'],
+    ['Molinillo','rojo'],
+    ['mauirosl','azul'],
+    ['melamina','rojo'],
+    ['Atascando','azul'],
+  ]
+  /*const nombre = 0;
+  const color = 1;*/
+ /* 
+  for(let oveja of ovejas){
+
+    if(oveja[1] == "rojo" && oveja[0].includes("a") && oveja[0].includes("n")) {
+        console.log(oveja);
+
+
+    }
+}*/
+/* 
+Hoy tienes el ultimo ejercicio de JavaScript de este nivel.
+
+Veamos una nueva forma de usar las cosas que aprendiste.
+
+Hoy la tarea será sobre unir dos arrays en uno.
+
+INSTRUCCIONES
+
+Dados 2 arrays, imprime en consola un tercer array que tenga los datos del primer array y del segundo. Puedes usar ciclos, metodos segun sea conveniente.
+
+También puedes buscar en la documentación de W3Schools, si tienes dudas puedes preguntar al grupo de discord :D
+
+Ejemplo:
+
+array1 : ["Pedro", "Marcos", "Maria", "Ignacio"]
+array2 : ["Carla", "Gonzalo", "Piero", "Mercedes"]
+
+array3 : ["Pedro", "Marcos", "Maria", "Ignacio", "Carla", "Gonzalo", "Piero", "Mercedes"]
+
+
+Mejora tu programa tanto como el tiempo te lo permita.
+Comparte un screenshot de tu programa funcionando por discord, no compartas tu codigo, solo los prints de tu resultado
+
+*/
+
+const array1 = ["Pedro", "Marcos", "Maria", "Ignacio"];
+const array2 = ["Carla", "Gonzalo", "Piero", "Mercedes"];
+
+const arreglos3 = array1.concat(array2);
+
+console.log(arreglos3);
